@@ -1,0 +1,55 @@
+# Build directories
+target/
+build/
+.gradle/
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.bin
+
+# Drivers
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+
+# Reports
+test-output/
+reports/
+screenshots/
+serenity/
+
+# Environment files
+*.env
+*.env.local
+.env.*
+*.properties.local
+
+# Python (optional)
+__pycache__/
+*.pyc
