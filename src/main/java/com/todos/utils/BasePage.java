@@ -43,4 +43,7 @@ public class BasePage {
 			driver = new EdgeDriver();
 		}
 	}
+	public static WebDriver getDriver() {
+		return driver;
+	}
 }
